@@ -75,7 +75,6 @@ export default function Contact() {
                   <div className="contact-input-otr w-full">
                     <textarea
                       className="contact-input placeholder:text-[#ffffff] text-[#ffffff] resize-none h-[159px] max-tablet3:h-[121px] w-full font-quicksand font-normal text-[15px] py-3.5 px-3 border border-[#ffffff0f] bg-[#FFFFFF0F] outline-none focus:outline-none"
-                      type="text"
                       placeholder="Email Address"
                     />
                   </div>
