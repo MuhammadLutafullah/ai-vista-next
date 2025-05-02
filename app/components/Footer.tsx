@@ -7,7 +7,7 @@ import sdIcon from "../../public/images/ud-icon.svg";
 import pkIcon from "../../public/images/pk-icon.svg";
 import phoneIcon from "../../public/images/phone-icon.svg";
 import mailIcon from "../../public/images/mail-icon.svg";
-import { log } from "console";
+
 export default function Footer() {
   return (
     <>

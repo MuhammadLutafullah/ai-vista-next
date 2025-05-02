@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -16,8 +16,6 @@ import { EffectCoverflow, Navigation } from "swiper/modules";
 
 import Image from "next/image";
 import cardIcon from "../../public/images/best-card-icon.svg";
-import bgBest from "../../public/images/bg-best.png";
-import bgBest2 from "../../public/images/bg-best.svg";
 
 export default function Best() {
   return (
