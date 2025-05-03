@@ -54,11 +54,11 @@ export default function SliderHero() {
           className="mySwiper"
         >
           {[
-            { icon: sliderIcon1, text: "AI/ML" },
+            { icon: sliderIcon1, text: "Artificial Intelligence" },
             { icon: sliderIcon2, text: "Software Development" },
             { icon: sliderIcon3, text: "Web Development" },
             { icon: sliderIcon4, text: "Cybersecurity" },
-            { icon: sliderIcon5, text: "UI/UX" },
+            { icon: sliderIcon5, text: "UI/UX Design" },
             { icon: sliderIcon6, text: "Mobile Development" },
             { icon: sliderIcon7, text: "ERP Solutions" },
           ].map((item, index) => (

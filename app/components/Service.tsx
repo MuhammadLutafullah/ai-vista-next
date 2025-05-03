@@ -5,6 +5,8 @@ import serviceIcon3 from "../../public/images/service-icon-3.svg";
 import serviceIcon4 from "../../public/images/service-icon-4.svg";
 import serviceIcon5 from "../../public/images/service-icon-5.svg";
 import serviceIcon6 from "../../public/images/service-icon-6.svg";
+import serviceIcon7 from "../../public/images/serviceIcon7.svg";
+import serviceIcon8 from "../../public/images/serviceIcon8.svg";
 
 const services = [
   {
@@ -43,6 +45,18 @@ const services = [
     description:
       "Tailored software solution crafted to fit your unique business needs.",
   },
+  {
+    icon: serviceIcon7,
+    title: "Cyber Security Services",
+    description:
+      "Tailored software solution crafted to fit your unique business needs.",
+  },
+  {
+    icon: serviceIcon8,
+    title: "SAAS Development",
+    description:
+      "Tailored software solution crafted to fit your unique business needs.",
+  },
 ];
 
 export default function Service() {
@@ -53,9 +67,15 @@ export default function Service() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="service-box-otr min-w-[354px] max-tablet3:min-w-[330px]"
+              className={`service-box-otr min-w-[354px] max-tablet3:min-w-[330px] ${
+                index >= 4 && "max-laptop:hidden" // Hide boxes 4 and above for screens ≤ 767px
+              } ${
+                index >= 6 && "max-desktop2:hidden" // Hide boxes 6 and above for screens between 768px and 1440px
+              } ${
+                index >= 8 && "min-desktop2:hidden" // Hide boxes 8 and above for screens > 1440px
+              }`}
             >
-              <div className="service-box-inr relative bg-accent pt-[62px] pb-[25px] text-center rounded-[40px] border border-[#FFFFFF91]">
+              <div className="service-box-inr relative min-h-[228px] bg-accent pt-[62px] pb-[25px] text-center rounded-[40px] border border-[#FFFFFF91]">
                 <Image
                   className="serviceIcon absolute top-[-59px] left-2/4 -translate-x-2/4"
                   src={service.icon}

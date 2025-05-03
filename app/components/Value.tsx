@@ -23,7 +23,7 @@ export default function Value() {
 
   return (
     <>
-      <div className="value-otr pb-28 max-laptop:pb-12 px-39 max-desktop:px-10 max-tablet:px-5">
+      <div className="value-otr pt-[50px] max-laptop:pt-0 pb-28 max-laptop:pb-12 px-39 max-desktop:px-10 max-tablet:px-5">
         <div className="value-inr text-center">
           <div className="tagline-otr flex items-center justify-center gap-[5px]">
             <Image className="star1" src={starWhite} alt="Star Icon" />
