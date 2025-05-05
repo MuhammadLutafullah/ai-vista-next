@@ -61,7 +61,6 @@ export default function Best() {
               centeredSlides={true}
               navigation={true}
               initialSlide={1} // Sets the middle slide as the active slide
-              navigation={true}
               slidesPerView={3}
               coverflowEffect={{
                 rotate: 50,
