@@ -17,7 +17,7 @@ import { EffectCoverflow, Navigation } from "swiper/modules";
 import Image from "next/image";
 import cardIcon from "../../public/images/best-card-icon.svg";
 import cardIcon3 from "../../public/images/Group 45.svg";
-import aboutImg3 from "../../public/images/about-us-img3.png";
+// import aboutImg3 from "../../public/images/about-us-img3.png";
 import aboutRight from "../../public/images/about-right.svg";
 import sliderRight from "../../public/images/slider-right.svg";
 
