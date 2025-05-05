@@ -445,9 +445,9 @@ export default function Best() {
                         </p>
                       </div>
                     </div>
-                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
-                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
-                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <span className=" active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className=" active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className=" active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
                     <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
                       Explore More
                       <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
@@ -525,6 +525,13 @@ export default function Best() {
                       Explore More
                       <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
                     </p>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
                   </div>
 
                   <style jsx>{`
@@ -555,76 +562,3 @@ export default function Best() {
     </>
   );
 }
-
-//  <div className="best-row flex justify-center pt-[81px]">
-//             <div className="best-card-otr relative">
-//               <div className="best-card-inr w-[400px] max-tablet3:w-[330px]  rounded-[24px] bg-white/10 border border-[#ffffff] pt-[23px] pb-[76px] px-[19px] max-tablet3:py-[30px] max-tablet3:px-[17px]">
-//                 <div className="flex justify-center">
-//                   <Image
-//                     className="cursor-pointer w-6 h-6"
-//                     src={cardIcon}
-//                     alt="Your Logo"
-//                   />
-//                 </div>
-//                 <p className="font-medium text-[18px] uppercase text-center pt-[12px]">
-//                   Website Development
-//                 </p>
-//                 <p className="font-quicksand font-medium text-[11px]">
-//                   Centralized Platforms For Enhanced Business Processes.
-//                 </p>
-//                 <div className="pt-4 flex flex-col gap-[10px]">
-//                   <div className="">
-//                     <p className="font-medium text-[12px] uppercase flex items-center gap-[6px]">
-//                       <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
-//                       Customer Portals
-//                     </p>
-//                     <p className="font-quicksand font-normal text-[10px] text-gray-50 w-[253px]">
-//                       Provide personalized access for customers to manage their
-//                       accounts, view transactions, and track activities
-//                       seamlessly.
-//                     </p>
-//                   </div>
-//                   <div className="">
-//                     <p className="font-medium text-[12px] uppercase flex items-center gap-[6px]">
-//                       <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
-//                       Customer Portals
-//                     </p>
-//                     <p className="font-quicksand font-normal text-[10px] text-gray-50 w-[253px]">
-//                       Provide personalized access for customers to manage their
-//                       accounts, view transactions, and track activities
-//                       seamlessly.
-//                     </p>
-//                   </div>
-//                   <div className="">
-//                     <p className="font-medium text-[12px] uppercase flex items-center gap-[6px]">
-//                       <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
-//                       Customer Portals
-//                     </p>
-//                     <p className="font-quicksand font-normal text-[10px] text-gray-50 w-[253px]">
-//                       Provide personalized access for customers to manage their
-//                       accounts, view transactions, and track activities
-//                       seamlessly.
-//                     </p>
-//                   </div>
-//                   <div className="">
-//                     <p className="font-medium text-[12px] uppercase flex items-center gap-[6px]">
-//                       <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
-//                       Customer Portals
-//                     </p>
-//                     <p className="font-quicksand font-normal text-[10px] text-gray-50 w-[253px]">
-//                       Provide personalized access for customers to manage their
-//                       accounts, view transactions, and track activities
-//                       seamlessly.
-//                     </p>
-//                   </div>
-//                 </div>
-//               </div>
-//               <span className="tl-span block h-1.5 w-1.5 rounded-full bg-white absolute top-[12px] left-[12px]"></span>
-//               <span className="bl-span block h-1.5 w-1.5 rounded-full bg-white absolute top-[12px] right-[12px]"></span>
-//               <span className="tr-span block h-1.5 w-1.5 rounded-full bg-white absolute bottom-[12px] left-[12px]"></span>
-//               <p className="br-span font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
-//                 Explore More
-//                 <span className="tr-span block h-1.5 w-1.5 rounded-full bg-white "></span>
-//               </p>
-//             </div>
-//           </div>

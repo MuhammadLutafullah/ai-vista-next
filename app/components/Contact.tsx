@@ -10,7 +10,7 @@ export default function Contact() {
               <Image
                 className="rounded-tl-[40px] rounded-bl-[40px] border-t-[1px] border-l-[1px] border-b-[1px] border-[rgba(255,255,255,0.1)]"
                 src={contactDarkImg}
-                alt="contact img"
+                alt="Contact image for customer inquiries"
               />
             </div>
             <div className="absolute top-[97px] left-[20px] z-[3]">
@@ -35,6 +35,7 @@ export default function Contact() {
                     <input
                       className="contact-input placeholder:text-[#ffffff] text-[#ffffff] w-full font-quicksand font-normal text-[15px] py-3.5 px-3  border border-[#ffffff0f] bg-[#FFFFFF0F] outline-none focus:outline-none "
                       type="text"
+                      id="name"
                       placeholder="Name"
                     />
                   </div>
@@ -42,6 +43,7 @@ export default function Contact() {
                     <input
                       className="contact-input w-full placeholder:text-[#ffffff] text-[#ffffff]  font-quicksand font-normal text-[15px] py-3.5 px-3 border border-[#ffffff0f] bg-[#FFFFFF0F] outline-none focus:outline-none"
                       type="text"
+                      id="surname"
                       placeholder="Surname"
                     />
                   </div>
@@ -51,6 +53,7 @@ export default function Contact() {
                     <input
                       className="contact-input w-full placeholder:text-[#ffffff] text-[#ffffff]  font-quicksand font-normal text-[15px] py-3.5 px-3 border border-[#ffffff0f] bg-[#FFFFFF0F] outline-none focus:outline-none"
                       type="text"
+                      id="email"
                       placeholder="Email Address"
                     />
                   </div>
@@ -75,7 +78,7 @@ export default function Contact() {
                   <div className="contact-input-otr w-full">
                     <textarea
                       className="contact-input placeholder:text-[#ffffff] text-[#ffffff] resize-none h-[159px] max-tablet3:h-[121px] w-full font-quicksand font-normal text-[15px] py-3.5 px-3 border border-[#ffffff0f] bg-[#FFFFFF0F] outline-none focus:outline-none"
-                      placeholder="Email Address"
+                      placeholder="Your message"
                     />
                   </div>
                 </div>
@@ -83,6 +86,7 @@ export default function Contact() {
               <div className="hero-action-otr  flex justify-center pt-[27px]">
                 <button
                   type="submit"
+                  aria-label="Submit the contact form"
                   className="hero-action-inr cursor-pointer w-[195px] max-tablet3:w-[160px] text-center text-[#000000] font-medium text-[15px] p-1 rounded-3xl bg-[#ffffff]"
                 >
                   Get Started

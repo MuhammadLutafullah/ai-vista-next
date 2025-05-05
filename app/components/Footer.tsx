@@ -12,8 +12,8 @@ import mailIcon from "../../public/images/mail-icon.svg";
 export default function Footer() {
   return (
     <>
-      <div className="footer-otr mt-28 border-t border-white">
-        <div className="footer-inr px-39 max-desktop:px-10 max-tablet:px-5  pt-[50px] pb-[20px]">
+      <footer className="footer-otr mt-28 border-t border-white">
+        <div className="footer-inr px-39 max-desktop:px-10 max-tablet:px-5 pt-[50px] pb-[20px]">
           <div className="footer-row flex justify-between border-b border-white pb-[50px] max-laptop:flex-col max-laptop:gap-y-[40px]">
             <div className="footer-logo-box flex flex-col gap-y-[20px] items-center w-[174px] max-laptop:flex-row max-laptop:w-full max-laptop:justify-center max-laptop:gap-x-[20px] ">
               <Image
@@ -159,7 +159,7 @@ export default function Footer() {
             Design and Develop by AI Vista Solutions
           </p>
         </div>
-      </div>
+      </footer>
     </>
   );
 }

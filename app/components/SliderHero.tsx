@@ -16,12 +16,11 @@ import sliderIcon7 from "../../public/images/arrangement-chart-form-svgrepo-com.
 
 export default function SliderHero() {
   return (
-    <div className="bg-[#000000] hero-slider-otr  relative z-[3] py-8 max-tablet:py-2 px-39 max-desktop:px-10 max-tablet:px-5">
+    <section
+      className="bg-[#000000] hero-slider-otr relative z-[3] py-8 max-tablet:py-2 px-39 max-desktop:px-10 max-tablet:px-5"
+      aria-label="Services we offer slider"
+    >
       <div className="hero-slider-inr">
-        {/* <p className="hero-slider-heading uppercase text-[#ffffff] text-center pb-10">
-          services we offer:
-        </p> */}
-
         <Swiper
           breakpoints={{
             0: {
@@ -52,6 +51,7 @@ export default function SliderHero() {
           modules={[Autoplay, FreeMode]}
           touchEventsTarget="container"
           className="mySwiper"
+          aria-label="Hero services slider"
         >
           {[
             { icon: sliderIcon1, text: "Artificial Intelligence" },
@@ -79,6 +79,6 @@ export default function SliderHero() {
           ))}
         </Swiper>
       </div>
-    </div>
+    </section>
   );
 }

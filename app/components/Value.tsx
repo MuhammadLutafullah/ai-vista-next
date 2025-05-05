@@ -25,35 +25,41 @@ export default function Value() {
     <>
       <section className="relative overflow-hidden">
         <Image
-          className="absolute top-[66px]  -right-[25px] max-laptop:hidden"
+          className="absolute top-[66px] -right-[25px] max-laptop:hidden"
           src={aboutRight}
-          alt="img"
+          alt="Decorative background image"
         />
         <Image
-          className="absolute top-[66px] rotate-180  -left-[70px] max-laptop:hidden"
+          className="absolute top-[66px] rotate-180 -left-[70px] max-laptop:hidden"
           src={aboutRight}
-          alt="img"
+          alt="Decorative background image flipped"
         />
         <div className="value-otr relative pt-[50px] max-laptop:pt-0 pb-28 max-laptop:pb-12 px-39 max-desktop:px-10 max-tablet:px-5">
           <div className="value-inr text-center">
             <div className="tagline-otr flex items-center justify-center gap-[5px]">
-              <Image className="star1" src={starWhite} alt="Star Icon" />
+              <Image className="star1" src={starWhite} alt="White star icon" />
               <p className="font-gendy font-normal text-[20px] text-[#00FFFF]">
                 Valued
               </p>
-              <Image className="star2" src={starWhite} alt="Star Icon" />
+              <Image className="star2" src={starWhite} alt="White star icon" />
             </div>
-            <p className="about-heading font-gendy font-normal text-[60px] max-tablet:text-[40px]">
+            <h2 className="about-heading font-gendy font-normal text-[60px] max-tablet:text-[40px]">
               SUCCESS STORIES
-            </p>
+            </h2>
             <p className="value-desc">
               Empowering businesses with our leading-edge software solutions.
             </p>
             <div className="value-row flex justify-center gap-x-[15px] gap-y-[12px] flex-wrap pt-3">
               {valueIcons.map((icon, index) => (
-                <div className="value-box-otr max-tablet2:w-full" key={index}>
+                <div
+                  key={icon.id || index}
+                  className="value-box-otr max-tablet2:w-full"
+                >
                   <div className="value-box-inr shadow-lg w-[292px] max-tablet2:w-full h-[101px] rounded-[15px] flex items-center justify-center bg-[#ffffff]">
-                    <Image src={icon} alt={`Value Icon ${index + 1}`} />
+                    <Image
+                      src={icon}
+                      alt={`Icon representing ${icon.description}`}
+                    />
                   </div>
                 </div>
               ))}
