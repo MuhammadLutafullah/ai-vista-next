@@ -16,7 +16,6 @@ import { EffectCoverflow, Navigation } from "swiper/modules";
 
 import Image from "next/image";
 import cardIcon from "../../public/images/best-card-icon.svg";
-import cardIcon2 from "../../public/images/bg-best-cropped.svg";
 import cardIcon3 from "../../public/images/Group 45.svg";
 
 export default function Best() {
