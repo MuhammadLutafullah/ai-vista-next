@@ -25,7 +25,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-form relative z-10 w-[571px]  ">
-            <div className="contact-form-inr border-t-[1px] border-r-[1px] border-b-[1px] border-[rgba(255,255,255,0.1)]   text-center bg-white/10 backdrop-blur-lg py-[39px] pl-[52px] pr-[64px] rounded-tr-[40px] rounded-br-[40px] max-laptop:rounded-tl-[40px] max-laptop:rounded-bl-[40px] max-tablet2:p-[20px]">
+            <div className="contact-form-inr border-t-[1px] border-r-[1px] border-b-[1px] max-laptop:border-l-[1px] border-[rgba(255,255,255,0.1)]   text-center bg-white/10 backdrop-blur-lg py-[39px] pl-[52px] pr-[64px] rounded-tr-[40px] rounded-br-[40px] max-laptop:rounded-tl-[40px] max-laptop:rounded-bl-[40px] max-tablet2:p-[20px]">
               <p className="font-gendy font-normal text-[30px]">
                 Stay Updated{" "}
               </p>

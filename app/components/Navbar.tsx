@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logoImg from "../../public/images/Logo.svg";
-
+import logoMobile from "../../public/images/mobile-logo.svg";
 export default function Navbar() {
   return (
     <>
@@ -8,8 +8,13 @@ export default function Navbar() {
         <div className="navbar-inr py-5 px-39 max-desktop:px-10 max-tablet:px-5  flex items-center max-laptop:justify-between  relative">
           <div className="logo-otr ">
             <Image
-              className="logo max-tablet:w-[55px]"
+              className="logo max-tablet:w-[55px] max-laptop:hidden"
               src={logoImg}
+              alt="Your Logo"
+            />
+            <Image
+              className="cursor-pointer  hidden max-laptop:block"
+              src={logoMobile}
               alt="Your Logo"
             />
           </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "../../public/images/Logo.svg";
+import logoMobile from "../../public/images/mobile-logo.svg";
 import socialIcon from "../../public/images/Linkedin-icon.svg";
 import ukIcon from "../../public/images/uk-icon.svg";
 import usIcon from "../../public/images/us-icon.svg";
@@ -16,8 +17,13 @@ export default function Footer() {
           <div className="footer-row flex justify-between border-b border-white pb-[50px] max-laptop:flex-col max-laptop:gap-y-[40px]">
             <div className="footer-logo-box flex flex-col gap-y-[20px] items-center w-[174px] max-laptop:flex-row max-laptop:w-full max-laptop:justify-center max-laptop:gap-x-[20px] ">
               <Image
-                className="cursor-pointer max-laptop:w-[70px] max-laptop:h-[70px]"
+                className="cursor-pointer max-laptop:w-[70px] max-laptop:h-[70px] max-laptop:hidden"
                 src={logo}
+                alt="Your Logo"
+              />
+              <Image
+                className="cursor-pointer max-laptop:w-[50px] max-laptop:h-[50px] hidden max-laptop:block"
+                src={logoMobile}
                 alt="Your Logo"
               />
               <div className="flex flex-col gap-[10px] items-center">
