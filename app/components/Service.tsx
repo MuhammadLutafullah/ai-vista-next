@@ -14,48 +14,64 @@ const services = [
     title: "Artificial Intelligence & Machine Learning",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: "rgba(127, 0, 255, 1)",
+    bgShadow: "0px 13px 36.3px 0px rgba(127, 0, 255, 0.65)",
   },
   {
     icon: serviceIcon2,
     title: "Web Development Services",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: "rgba(0, 168, 168, 1)",
+    bgShadow: " 0px 13px 27.7px 0px rgba(0, 168, 168, 0.65)",
   },
   {
     icon: serviceIcon3,
     title: "UI/UX Design Services",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: "rgba(230, 158, 33, 1)",
+    bgShadow: " 0px 13px 34.7px 0px rgba(230, 158, 33, 0.65)",
   },
   {
     icon: serviceIcon4,
     title: "Mobile App Development",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: "rgba(255, 107, 107, 1)",
+    bgShadow: "0px 13px 36.3px 0px rgba(255, 107, 107, 0.65)",
   },
   {
     icon: serviceIcon5,
     title: "Data Science & Analytics",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: " rgba(179, 157, 219, 1)",
+    bgShadow: "0px 13px 27.7px 0px rgba(179, 157, 219, 0.65)",
   },
   {
     icon: serviceIcon6,
     title: "Cloud Computing Services",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: "rgba(0, 191, 255, 1)",
+    bgShadow: "0px 13px 34.7px 0px rgba(0, 191, 255, 0.65)",
   },
   {
     icon: serviceIcon7,
     title: "Cyber Security Services",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: "rgba(255, 215, 0, 1)",
+    bgShadow: "0px 13px 36.3px 0px rgba(255, 215, 0, 0.65)",
   },
   {
     icon: serviceIcon8,
     title: "SAAS Development",
     description:
       "Tailored software solution crafted to fit your unique business needs.",
+    bgColor: " rgba(102, 204, 204, 1)",
+    bgShadow: " 0px 13px 27.7px 0px rgba(102, 204, 204, 0.65)",
   },
 ];
 
@@ -76,11 +92,19 @@ export default function Service() {
               }`}
             >
               <div className="service-box-inr relative min-h-[228px] bg-accent pt-[62px] pb-[25px] text-center rounded-[40px] border border-[#FFFFFF91]">
-                <Image
-                  className="serviceIcon absolute top-[-59px] left-2/4 -translate-x-2/4"
-                  src={service.icon}
-                  alt={`${service.title} icon`}
-                />
+                <div
+                  className={`absolute top-[-38px] left-2/4 -translate-x-2/4 flex justify-center shadow-[0px_13px_36.3px_0px_rgba(127,_0,_255,_0.65)] items-center rounded-[38px] w-[77px] h-[77px]`}
+                  style={{
+                    backgroundColor: service.bgColor,
+                    boxShadow: service.bgShadow,
+                  }}
+                >
+                  <Image
+                    className="serviceIcon w-[47px] h-[47px] "
+                    src={service.icon}
+                    alt={`${service.title} icon`}
+                  />
+                </div>
                 <p className="service-box-heading w-[228px] text-[#FFFFFF] mx-auto font-questrial font-normal text-[25px] leading-[30px] pb-2.5 max-tablet3:text-[21px]">
                   {service.title}
                 </p>
