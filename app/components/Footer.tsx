@@ -70,7 +70,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="footer-links-otr w-[113px] max-tablet3:w-full">
+              <div className="footer-links-otr w-[115px] max-tablet3:w-full">
                 <p className="font-questrial font-normal text-[20px] pb-2.5">
                   Locations
                 </p>
@@ -114,29 +114,44 @@ export default function Footer() {
                   Contact Us
                 </p>
                 <ul className="flex flex-col gap-[10px] max-tablet3:items-center">
-                  <li className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]">
+                  <a
+                    href="tel:44-7970128689"
+                    className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]"
+                  >
                     <Image className=" w-4 h-4" src={phoneIcon} alt="img" />
                     44-7970128689
-                  </li>
+                  </a>
                   <li className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]">
                     United State:
                   </li>
-                  <li className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]">
+                  <a
+                    href="tel:+966-568238964"
+                    className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]"
+                  >
                     <Image className=" w-4 h-4" src={phoneIcon} alt="img" />
                     +966-568238964
-                  </li>
-                  <li className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]">
+                  </a>
+                  <a
+                    href="tel:+92-3052233404"
+                    className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]"
+                  >
                     <Image className=" w-4 h-4" src={phoneIcon} alt="img" />
                     +92-3052233404
-                  </li>
-                  <li className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]">
+                  </a>
+                  <a
+                    href="mailto:info@aivistasolutions.com"
+                    className="font-quicksand font-medium text-[15px] cursor-pointer flex items-center gap-[10px]"
+                  >
                     <Image className=" w-4 h-4" src={mailIcon} alt="img" />
                     info@aivistasolutions.com
-                  </li>
+                  </a>
                 </ul>
               </div>
             </div>
           </div>
+          <p className="font-quicksand font-normal text-[10px] text-center pt-2">
+            Design and Develop by AI Vista Solutions
+          </p>
         </div>
       </div>
     </>

@@ -6,9 +6,9 @@ export default function Contact() {
       <div className="contact-otr  ">
         <div className="contact-inr px-39 max-desktop:px-10 max-tablet:px-5 flex items-center justify-center ">
           <div className="contact-content w-[393px]  relative max-laptop:hidden">
-            <div className=" ">
+            <div className="  ">
               <Image
-                className="rounded-tl-[40px] rounded-bl-[40px]"
+                className="rounded-tl-[40px] rounded-bl-[40px] border-t-[1px] border-l-[1px] border-b-[1px] border-[rgba(255,255,255,0.1)]"
                 src={contactDarkImg}
                 alt="contact img"
               />
@@ -24,8 +24,8 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div className="contact-form relative z-10 w-[571px]  max-tablet3:after:hidden">
-            <div className="contact-form-inr  text-center bg-white/10 backdrop-blur-lg py-[39px] pl-[52px] pr-[64px] rounded-tr-[40px] rounded-br-[40px] max-laptop:rounded-tl-[40px] max-laptop:rounded-bl-[40px] max-tablet2:p-[20px]">
+          <div className="contact-form relative z-10 w-[571px]  ">
+            <div className="contact-form-inr border-t-[1px] border-r-[1px] border-b-[1px] border-[rgba(255,255,255,0.1)]   text-center bg-white/10 backdrop-blur-lg py-[39px] pl-[52px] pr-[64px] rounded-tr-[40px] rounded-br-[40px] max-laptop:rounded-tl-[40px] max-laptop:rounded-bl-[40px] max-tablet2:p-[20px]">
               <p className="font-gendy font-normal text-[30px]">
                 Stay Updated{" "}
               </p>

@@ -230,9 +230,44 @@
 }
 
 @media (max-width: 1024px) {
-  .swiper-button-next,
+  .swiper-button-next {
+    bottom: 0px !important;
+    right: 44% !important;
+  }
   .swiper-button-prev {
-    display: none !important;
+    bottom: 0px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .swiper-button-next {
+    bottom: 0px !important;
+    right: 43% !important;
+  }
+  .swiper-button-prev {
+    left: 43% !important;
+    bottom: 0px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .swiper-button-next {
+    bottom: 0px !important;
+    right: 41% !important;
+  }
+  .swiper-button-prev {
+    bottom: 0px !important;
+    left: 41% !important;
+  }
+}
+@media (max-width: 800px) {
+  .swiper-button-next {
+    bottom: 0px !important;
+    right: 39% !important;
+  }
+  .swiper-button-prev {
+    bottom: 0px !important;
+    left: 39% !important;
   }
 }
 
@@ -258,3 +293,20 @@
   position: relative;
   z-index: 2;
 } */
+
+.swiper-button-next,
+.swiper-button-prev {
+  outline: none !important; /* Removes the focus outline */
+  box-shadow: none !important; /* Removes additional shadow, if any */
+}
+
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+* {
+  user-select: none; /* Prevents text selection */
+  outline: none; /* Removes the blinking outline */
+  cursor: default; /* Ensures a consistent cursor style */
+}

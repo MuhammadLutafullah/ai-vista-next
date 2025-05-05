@@ -17,6 +17,7 @@ import { EffectCoverflow, Navigation } from "swiper/modules";
 import Image from "next/image";
 import cardIcon from "../../public/images/best-card-icon.svg";
 import cardIcon2 from "../../public/images/bg-best-cropped.svg";
+import cardIcon3 from "../../public/images/Group 45.svg";
 
 export default function Best() {
   return (
@@ -36,7 +37,7 @@ export default function Best() {
           <div className="best-row-main relative    bg-cover bg-center bg-no-repeat">
             <Image
               className="absolute bg-boxes-img max-laptop:hidden"
-              src={cardIcon2}
+              src={cardIcon3}
               alt="Your Logo"
             />
             <Swiper
@@ -60,6 +61,8 @@ export default function Best() {
               grabCursor={true}
               centeredSlides={true}
               navigation={true}
+              initialSlide={1} // Sets the middle slide as the active slide
+              navigation={true}
               slidesPerView={3}
               coverflowEffect={{
                 rotate: 50,
@@ -69,7 +72,7 @@ export default function Best() {
                 slideShadows: true,
               }}
               modules={[EffectCoverflow, Navigation]}
-              className="mySwiper !pb-[70px] max-laptop:!pb-[20px] !pt-[47px] "
+              className="mySwiper !pb-[70px] max-laptop:!pb-[50px] !pt-[47px] "
             >
               <SwiperSlide>
                 <div className="best-card-inr min-h-[487px] w-full rounded-[24px] border border-[#FFFFFF1A] pt-[23px] pb-[76px] px-[19px] max-tablet3:py-[30px] max-tablet3:px-[17px] backdrop-blur-md bg-[rgba(255,255,255,0.1)]">
