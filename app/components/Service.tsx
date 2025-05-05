@@ -78,7 +78,7 @@ const services = [
 export default function Service() {
   return (
     <>
-      <div className="service-otr pt-[90px] bg-primary relative border-t border-error-content">
+      <section className="service-otr pt-[90px] bg-primary relative border-t border-error-content">
         <div className="service-inr flex items-center flex-wrap justify-center gap-y-[67px] gap-x-[33px] px-39 max-desktop:px-10 max-tablet:px-5">
           {services.map((service, index) => (
             <div
@@ -112,20 +112,26 @@ export default function Service() {
                   {service.description}
                 </p>
                 <div className="service-box-action-otr flex justify-center">
-                  <div className="service-box-action cursor-pointer font-questrial font-normal text-[15px] text-[#ACACACFF] border-b border-[#FFFFFF91]">
+                  <a
+                    href="#"
+                    className="service-box-action cursor-pointer font-questrial font-normal text-[15px] text-[#ACACACFF] border-b border-[#FFFFFF91]"
+                  >
                     Read More
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
         <div className="services-action-otr pt-10 flex justify-center">
-          <div className="services-action-inr font-medium text-[15px] p-[9px] rounded-[22px] border border-error w-[178px] text-center">
+          <a
+            href="#"
+            className="services-action-inr font-medium text-[15px] p-[9px] rounded-[22px] border border-error w-[178px] text-center"
+          >
             Read More
-          </div>
+          </a>
         </div>
-      </div>
+      </section>
     </>
   );
 }

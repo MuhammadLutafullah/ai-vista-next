@@ -145,6 +145,9 @@
   z-index: 5 !important;
   transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1) !important;
 }
+.best-otr .swiper-slide-active .active-style {
+  display: block;
+}
 
 /* .best-otr::after {
   content: "";
@@ -315,5 +318,4 @@
 * {
   user-select: none; /* Prevents text selection */
   outline: none; /* Removes the blinking outline */
-  cursor: default; /* Ensures a consistent cursor style */
 }

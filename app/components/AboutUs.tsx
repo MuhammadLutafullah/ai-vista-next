@@ -6,7 +6,7 @@ import aboutRight from "../../public/images/about-right.svg";
 export default function AboutUs() {
   return (
     <>
-      <div className="relative overflow-hidden">
+      <section className="relative overflow-hidden">
         <div className="about-otr relative  pt-12 pb-28 max-laptop:pb-12">
           <div className="about-inr px-39 max-desktop:px-10 max-tablet:px-5 flex justify-center gap-x-[50px] max-desktop:gap-x-[20px] max-laptop:flex-col">
             <div className="about-images flex gap-[13px] w-[574px] max-laptop:w-full max-tablet:hidden">
@@ -58,9 +58,12 @@ export default function AboutUs() {
                 unique needs of our clients.
               </p>
               <div className="hero-action-otr mt-4 flex max-tablet:justify-center">
-                <div className="hero-action-inr cursor-pointer w-[178px] max-tablet3:w-[150px] text-center text-warning-content font-medium text-[15px] p-2.5 rounded-3xl bg-error">
+                <a
+                  href="#"
+                  className="hero-action-inr cursor-pointer w-[178px] max-tablet3:w-[150px] text-center text-warning-content font-medium text-[15px] p-2.5 rounded-3xl bg-error"
+                >
                   Read More
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -75,7 +78,7 @@ export default function AboutUs() {
           src={aboutRight}
           alt="img"
         />
-      </div>
+      </section>
     </>
   );
 }

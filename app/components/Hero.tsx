@@ -4,7 +4,7 @@ import starBlue from "../../public/images/hero-star-blue.svg";
 export default function Hero() {
   return (
     <>
-      <div className="hero-otr bg-[#000000] py-[51px]  flex justify-center relative z-[3]">
+      <section className="hero-otr bg-[#000000] py-[51px]  flex justify-center relative z-[3]">
         <div className="video-wrapper  w-full h-full absolute z-[-1]">
           <video
             autoPlay
@@ -40,12 +40,15 @@ export default function Hero() {
             every step.
           </p>
           <div className="hero-action-otr mt-4 flex justify-center">
-            <div className="hero-action-inr cursor-pointer w-[251px] max-tablet3:w-[198px] text-center text-[#000000] font-medium text-[15px] p-2.5 rounded-3xl bg-[#ffffff]">
+            <a
+              href="#"
+              className="hero-action-inr  w-[251px] max-tablet3:w-[198px] text-center text-[#000000] font-medium text-[15px] p-2.5 rounded-3xl bg-[#ffffff]"
+            >
               Get Started
-            </div>
+            </a>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -130,6 +130,13 @@ export default function Best() {
                         </p>
                       </div>
                     </div>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
                   </div>
 
                   <style jsx>{`
@@ -204,6 +211,13 @@ export default function Best() {
                         </p>
                       </div>
                     </div>
+                    <span className=" active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className=" active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className=" active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
                   </div>
 
                   <style jsx>{`
@@ -270,6 +284,20 @@ export default function Best() {
                         </p>
                       </div>
                     </div>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
                   </div>
 
                   <style jsx>{`
@@ -336,6 +364,13 @@ export default function Best() {
                         </p>
                       </div>
                     </div>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
                   </div>
 
                   <style jsx>{`
@@ -410,6 +445,13 @@ export default function Best() {
                         </p>
                       </div>
                     </div>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
                   </div>
 
                   <style jsx>{`
@@ -476,6 +518,13 @@ export default function Best() {
                         </p>
                       </div>
                     </div>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] left-[12px] hidden"></span>
+                    <span className="active-style tr-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute top-[12px] right-[12px] hidden"></span>
+                    <span className="active-style tl-span  h-1.5 w-1.5 rounded-full bg-gray-300 absolute bottom-[12px] left-[12px] hidden"></span>
+                    <p className=" font-quicksand font-medium text-[9px] flex items-center gap-[6px] absolute bottom-[12px] right-[12px]">
+                      Explore More
+                      <span className="  tl-span block h-1.5 w-1.5 rounded-full bg-gray-300 "></span>
+                    </p>
                   </div>
 
                   <style jsx>{`

@@ -23,7 +23,7 @@ export default function Value() {
 
   return (
     <>
-      <div className="relative overflow-hidden">
+      <section className="relative overflow-hidden">
         <Image
           className="absolute top-[66px]  -right-[25px] max-laptop:hidden"
           src={aboutRight}
@@ -60,7 +60,7 @@ export default function Value() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

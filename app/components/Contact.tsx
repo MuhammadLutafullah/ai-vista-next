@@ -3,7 +3,7 @@ import contactDarkImg from "../../public/images/contact-drak-img.png";
 export default function Contact() {
   return (
     <>
-      <div className="contact-otr  ">
+      <section className="contact-otr  ">
         <div className="contact-inr px-39 max-desktop:px-10 max-tablet:px-5 flex items-center justify-center ">
           <div className="contact-content w-[393px]  relative max-laptop:hidden">
             <div className="  ">
@@ -81,14 +81,17 @@ export default function Contact() {
                 </div>
               </div>
               <div className="hero-action-otr  flex justify-center pt-[27px]">
-                <div className="hero-action-inr cursor-pointer w-[195px] max-tablet3:w-[160px] text-center text-[#000000] font-medium text-[15px] p-1 rounded-3xl bg-[#ffffff]">
+                <button
+                  type="submit"
+                  className="hero-action-inr cursor-pointer w-[195px] max-tablet3:w-[160px] text-center text-[#000000] font-medium text-[15px] p-1 rounded-3xl bg-[#ffffff]"
+                >
                   Get Started
-                </div>
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
