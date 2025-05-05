@@ -133,12 +133,12 @@
   transform: translate3d(0px, 0px, -105.814px) rotateX(0deg) rotateY(0deg)
     scale(1) !important;
   z-index: 3 !important;
-  left: 60px !important;
+  left: 84px !important;
 }
 
 .best-otr .swiper-slide-next {
   transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1) !important;
-  right: 60px !important;
+  right: 73px !important;
 }
 
 .best-otr .swiper-slide-active {

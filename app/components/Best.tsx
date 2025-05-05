@@ -39,7 +39,7 @@ export default function Best() {
             </p>
             <div className="best-row-main relative    bg-cover bg-center bg-no-repeat">
               <Image
-                className="absolute bg-boxes-img max-laptop:hidden"
+                className="absolute bg-boxes-img object-cover max-laptop:hidden"
                 src={cardIcon3}
                 alt="Your Logo"
               />
@@ -95,7 +95,7 @@ export default function Best() {
                     </p>
                     <div className="pt-4 flex flex-col gap-[10px]">
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           User-Friendly Storefront
                         </p>
@@ -106,7 +106,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Secure Payment Integration
                         </p>
@@ -119,7 +119,7 @@ export default function Best() {
                       </div>
 
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full  bg-white block"></span>{" "}
                           Product Management System
                         </p>
@@ -168,7 +168,7 @@ export default function Best() {
                     </p>
                     <div className="pt-4 flex flex-col gap-[10px]">
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Customer Portals
                         </p>
@@ -179,7 +179,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Employee Portals
                         </p>
@@ -190,7 +190,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           E-Commerce Portals
                         </p>
@@ -201,7 +201,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full  bg-white block"></span>{" "}
                           Service Portals
                         </p>
@@ -249,7 +249,7 @@ export default function Best() {
                     </p>
                     <div className="pt-4 flex flex-col gap-[10px]">
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           User-Friendly Storefront
                         </p>
@@ -260,7 +260,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Secure Payment Integration
                         </p>
@@ -273,7 +273,7 @@ export default function Best() {
                       </div>
 
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full  bg-white block"></span>{" "}
                           Product Management System
                         </p>
@@ -329,7 +329,7 @@ export default function Best() {
                     </p>
                     <div className="pt-4 flex flex-col gap-[10px]">
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           User-Friendly Storefront
                         </p>
@@ -340,7 +340,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Secure Payment Integration
                         </p>
@@ -353,7 +353,7 @@ export default function Best() {
                       </div>
 
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full  bg-white block"></span>{" "}
                           Product Management System
                         </p>
@@ -402,7 +402,7 @@ export default function Best() {
                     </p>
                     <div className="pt-4 flex flex-col gap-[10px]">
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Customer Portals
                         </p>
@@ -413,7 +413,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Employee Portals
                         </p>
@@ -424,7 +424,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           E-Commerce Portals
                         </p>
@@ -435,7 +435,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full  bg-white block"></span>{" "}
                           Service Portals
                         </p>
@@ -483,7 +483,7 @@ export default function Best() {
                     </p>
                     <div className="pt-4 flex flex-col gap-[10px]">
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           User-Friendly Storefront
                         </p>
@@ -494,7 +494,7 @@ export default function Best() {
                         </p>
                       </div>
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full bg-white block"></span>{" "}
                           Secure Payment Integration
                         </p>
@@ -507,7 +507,7 @@ export default function Best() {
                       </div>
 
                       <div className="">
-                        <p className="font-bold text-[16px] uppercase flex items-center gap-[6px] text-white">
+                        <p className="font-medium text-[12px] uppercase flex items-center gap-[6px] text-white">
                           <span className="w-1.5 h-1.5 rounded-full  bg-white block"></span>{" "}
                           Product Management System
                         </p>
