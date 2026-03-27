@@ -39,8 +39,7 @@ export default function Hero() {
         {/* Hero Heading */}
         <h1 className="hero-heading-otr flex items-baseline gap-[6px] max-laptop:justify-center">
           <span className="hero-heading text-[#ffffff] font-questrial font-semibold text-[60px] max-laptop:text-[40px] max-tablet2:text-[28px]">
-            {/* Unlock the future With Ai */}
-            I LOVE YOU TWO OSAMA JEE
+            Unlock the future With Ai
           </span>
           <span className="block hero-heading-dot bg-[#00A8A8] w-3 h-3 rounded-full max-tablet2:w-2 max-tablet2:h-2"></span>
         </h1>
@@ -54,11 +53,12 @@ export default function Hero() {
 
         {/* Call to Action */}
         <div className="hero-action-otr mt-4 flex justify-center">
-          <a
-            href="#"
-            className="hero-action-inr w-[251px] max-tablet3:w-[198px] text-center text-[#000000] font-medium text-[15px] p-2.5 rounded-3xl bg-[#ffffff]"
-          >
-            Get Started
+          <a href="/contact" className="group relative inline-flex items-center gap-2 px-8 py-3 border border-[#00a8a8] text-[#00a8a8] hover:text-white rounded-full font-medium transition-all duration-300 overflow-hidden">
+            <span className="relative z-10">Get Started</span>
+            <svg className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+            <div className="absolute inset-0 bg-[#00a8a8] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
           </a>
         </div>
       </div>

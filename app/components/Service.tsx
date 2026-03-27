@@ -115,28 +115,10 @@ export default function Service() {
                   <p className="service-box-desc w-[272px] text-center mx-auto text-[#E2E2E2FF] font-questrial font-normal text-[15px] max-tablet3:text-[14px]">
                     {service.description}
                   </p>
-                  <div className="service-box-action-otr flex justify-center">
-                    <a
-                      href="#"
-                      className="service-box-action cursor-pointer font-questrial font-normal text-[15px] text-[#ACACACFF] border-b border-[#FFFFFF91]"
-                      aria-label={`Read more about ${service.title}`}
-                    >
-                      Read More
-                    </a>
-                  </div>
                 </div>
               </div>
             );
           })}
-        </div>
-        <div className="services-action-otr pt-10 flex justify-center">
-          <a
-            href="#"
-            className="services-action-inr font-medium text-[15px] p-[9px] rounded-[22px] border border-error w-[178px] text-center"
-            aria-label="Read more about all services"
-          >
-            Read More
-          </a>
         </div>
       </section>
     </>

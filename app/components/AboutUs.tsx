@@ -10,8 +10,16 @@ export default function AboutUs() {
         className="relative overflow-hidden"
         aria-label="About Us section"
       >
-        <div className="about-otr relative pt-12 pb-28 max-laptop:pb-12">
-          <div className="about-inr px-39 max-desktop:px-10 max-tablet:px-5 flex justify-center gap-x-[50px] max-desktop:gap-x-[20px] max-laptop:flex-col">
+        <div className="about-otr relative pt-28 pb-28 max-laptop:pb-12">
+          <div className="flex items-center justify-center pb-3">
+             <div className="inline-flex items-center gap-2 bg-white/5 rounded-full px-3 py-1.5 lg:px-5 lg:py-2.5 mb-4 lg:mb-8">
+            <div className="w-1.5 h-1.5 lg:w-2 lg:h-2 rounded-full bg-[#00a8a8]"></div>
+            <span className="text-[#00a8a8] text-xs lg:text-sm font-medium font-quicksand uppercase tracking-wider">
+              About
+            </span>
+          </div>
+          </div>
+          <div className="about-inr px-39 max-desktop:px-10 max-tablet:px-5 flex justify-center items-center gap-x-[50px] max-desktop:gap-x-[20px] max-laptop:flex-col">
             <div className="about-images flex gap-[13px] w-[574px] max-laptop:w-full max-tablet:hidden">
               <div className="about-img1-otr max-laptop:w-full">
                 <Image
@@ -44,7 +52,7 @@ export default function AboutUs() {
               <p className="about-desc-1">
                 At{" "}
                 <span className="about-highlight text-[#00FFFF] font-medium">
-                  [AI Vista Solutions]
+                  [tekstack]
                 </span>
                 , we are more than just a development company—we are innovators,
                 problem solvers, and technology enthusiasts committed to
@@ -60,15 +68,7 @@ export default function AboutUs() {
                 solutions, we ensure that every project is tailored to meet the
                 unique needs of our clients.
               </p>
-              <div className="hero-action-otr mt-4 flex max-tablet:justify-center">
-                <a
-                  href="#"
-                  className="hero-action-inr cursor-pointer w-[178px] max-tablet3:w-[150px] text-center text-warning-content font-medium text-[15px] p-2.5 rounded-3xl bg-error"
-                  aria-label="Read more about AI Vista Solutions"
-                >
-                  Read More
-                </a>
-              </div>
+             
             </div>
           </div>
         </div>

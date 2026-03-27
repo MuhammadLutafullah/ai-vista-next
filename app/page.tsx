@@ -1,6 +1,6 @@
 import AboutUs from "./components/AboutUs";
 import Best from "./components/Best";
-import Contact from "./components/Contact";
+import Contact from "./components/ContactForm";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -22,48 +22,8 @@ export default function Home() {
       <Service />
       <AboutUs />
       <Best />
-      <Value />
-      <Contact />
+      <Value/>
       <Footer />
-      {/* <h1 className="text-3xl font-bold underline text-primary-content">
-        Hello world!
-      </h1>
-      <h1 className="text-3xl font-quicksand font-bold underline text-primary">
-        Hello world!
-      </h1>
-      <h1 className="text-3xl font-questrial font-bold underline text-primary">
-        Hello world!
-      </h1>
-      <h1 className="text-3xl font-gendy  underline text-primary">
-        Hello world!
-      </h1> */}
-      {/* <input
-        type="checkbox"
-        value="light"
-        className="toggle theme-controller bg-amber-400 z-[9] absolute bottom-[0px] left-2/4 -translate-x-2/4 -translate-y-2/4"
-      /> */}
-      {/* <div>
-        This div will always use light theme
-        <span data-theme="retro">This span will always use retro theme!</span>
-      </div>
-      <div data-theme="light">
-        This div will always use light theme
-        <span data-theme="retro">This span will always use retro theme!</span>
-      </div>
-
-      <div data-theme="dark">
-        This div will always use light theme
-        <span data-theme="retro">This span will always use retro theme!</span>
-      </div>
-
-      <button className="btn btn-neutral">Neutral</button>
-      <button className="btn btn-primary">Primary</button>
-      <button className="btn btn-secondary">Secondary</button>
-      <button className="btn btn-accent">Accent</button>
-      <button className="btn btn-info">Info</button>
-      <button className="btn btn-success">Success</button>
-      <button className="btn btn-warning">Warning</button>
-      <button className="btn btn-error">Error</button> */}
     </>
   );
 }

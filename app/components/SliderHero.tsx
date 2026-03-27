@@ -20,6 +20,7 @@ export default function SliderHero() {
       className="bg-[#000000] hero-slider-otr relative z-[3] py-8 max-tablet:py-2 px-39 max-desktop:px-10 max-tablet:px-5"
       aria-label="Services we offer slider"
     >
+      
       <div className="hero-slider-inr">
         <Swiper
           breakpoints={{
