@@ -39,7 +39,7 @@ export default function Hero() {
         {/* Hero Heading */}
         <h1 className="hero-heading-otr flex items-baseline gap-[6px] max-laptop:justify-center">
           <span className="hero-heading text-[#ffffff] font-questrial font-semibold text-[60px] max-laptop:text-[40px] max-tablet2:text-[28px]">
-            Unlock the future With Ai
+            Unlock the future With AI
           </span>
           <span className="block hero-heading-dot bg-[#00A8A8] w-3 h-3 rounded-full max-tablet2:w-2 max-tablet2:h-2"></span>
         </h1>

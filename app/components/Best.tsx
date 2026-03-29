@@ -25,144 +25,183 @@ const dummyApiService = {
           heading: "What We Do Best",
           description:
             "We craft end‑to‑end tech solutions—spanning strategy, design, and development—that turn bold ideas into resilient, user‑focused products. Partner with us to accelerate innovation, optimize operations, and create seamless digital experiences that set you apart.",
-          slides: [
-            {
-              id: 1,
-              title: "E-Commerce",
-              subtitle: "Centralized Platforms For Enhanced Business Processes.",
-              features: [
-                {
-                  title: "User-Friendly Storefront",
-                  description:
-                    "Design an intuitive, visually appealing storefront that showcases products effectively and offers seamless navigation for a smooth shopping experience.",
-                },
-                {
-                  title: "Secure Payment Integration",
-                  description:
-                    "Enable secure transactions with multiple payment options like credit/debit cards, digital wallets, UPI, and BNPL (Buy Now, Pay Later) solutions, supported by encryption for data safety.",
-                },
-                {
-                  title: "Product Management System",
-                  description:
-                    "Manage inventory, pricing, and product details effortlessly with real-time updates and automation to reduce manual effort.",
-                },
-              ],
-            },
-             {
-              id: 5,
-              title: "AI & Machine Learning",
-              subtitle: "Intelligent Solutions For Data-Driven Decisions.",
-              features: [
-                {
-                  title: "Predictive Analytics",
-                  description:
-                    "Leverage ML algorithms to forecast trends, customer behavior, and business outcomes.",
-                },
-                {
-                  title: "Computer Vision",
-                  description:
-                    "Implement image recognition, object detection, and visual search capabilities.",
-                },
-                {
-                  title: "NLP & Chatbots",
-                  description:
-                    "Build intelligent conversational agents and text analysis tools for enhanced user interaction.",
-                },
-              ],
-            },
-            {
-              id: 2,
-              title: "Website Development",
-              subtitle: "Centralized Platforms For Enhanced Business Processes.",
-              features: [
-                {
-                  title: "Customer Portals",
-                  description:
-                    "Provide personalized access for customers to manage their accounts, view transactions, and track activities seamlessly.",
-                },
-                {
-                  title: "Employee Portals",
-                  description:
-                    "Enable your team to collaborate efficiently with tools for task management, resource sharing, and communication.",
-                },
-                {
-                  title: "E-Commerce Portals",
-                  description:
-                    "Integrate shopping features, inventory management, and payment solutions for an engaging online store experience.",
-                },
-                {
-                  title: "Service Portals",
-                  description:
-                    "Simplify support with ticket systems, FAQs, and live chat for quick issue resolution.",
-                },
-              ],
-            },
-            {
-              id: 3,
-              title: "Mobile App Development",
-              subtitle: "Centralized Platforms For Enhanced Business Processes.",
-              features: [
-                {
-                  title: "Native & Cross-Platform Apps",
-                  description:
-                    "Build high-performance mobile applications for iOS and Android using React Native, Flutter, or native technologies.",
-                },
-                {
-                  title: "Offline Functionality",
-                  description:
-                    "Enable seamless user experience even without internet connectivity with local storage and sync capabilities.",
-                },
-                {
-                  title: "Push Notifications",
-                  description:
-                    "Engage users with timely notifications, updates, and personalized alerts to boost retention.",
-                },
-              ],
-            },
-            {
-              id: 4,
-              title: "Cloud Solutions",
-              subtitle: "Scalable Infrastructure For Modern Businesses.",
-              features: [
-                {
-                  title: "AWS/Azure/GCP Integration",
-                  description:
-                    "Leverage leading cloud platforms for scalable, secure, and cost-effective infrastructure solutions.",
-                },
-                {
-                  title: "DevOps & CI/CD",
-                  description:
-                    "Automate deployment pipelines, monitoring, and infrastructure management for faster releases.",
-                },
-                {
-                  title: "Cloud Migration",
-                  description:
-                    "Seamlessly migrate your existing applications to the cloud with minimal downtime.",
-                },
-              ],
-            },
-            {
-              id: 6,
-              title: "Cybersecurity",
-              subtitle: "Protect Your Digital Assets With Enterprise-Grade Security.",
-              features: [
-                {
-                  title: "Penetration Testing",
-                  description:
-                    "Identify vulnerabilities with comprehensive security assessments and ethical hacking.",
-                },
-                {
-                  title: "Data Encryption",
-                  description:
-                    "Implement end-to-end encryption for sensitive data at rest and in transit.",
-                },
-                {
-                  title: "Compliance & Auditing",
-                  description:
-                    "Ensure GDPR, HIPAA, and SOC2 compliance with regular security audits.",
-                },
-              ],
-            },
+         slides: [
+    {
+    id: 2,
+    title: "Web Development Services",
+    subtitle: "Scalable Platforms For Seamless Digital Experiences.",
+    features: [
+      {
+        title: "Responsive Design",
+        description:
+          "Create fast, mobile-friendly websites optimized for performance and accessibility.",
+      },
+      {
+        title: "Custom Web Apps",
+        description:
+          "Develop scalable and secure web applications tailored to your business needs.",
+      },
+      {
+        title: "API Integration",
+        description:
+          "Integrate third-party services and APIs for enhanced functionality and automation.",
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Artificial Intelligence & Machine Learning",
+    subtitle: "Intelligent Systems For Smarter Business Decisions.",
+    features: [
+      {
+        title: "Predictive Analytics",
+        description:
+          "Leverage AI models to forecast trends, user behavior, and business outcomes with high accuracy.",
+      },
+      {
+        title: "Computer Vision",
+        description:
+          "Implement image recognition, object detection, and visual intelligence for automation.",
+      },
+      {
+        title: "NLP & Chatbots",
+        description:
+          "Build smart conversational agents to enhance user interaction and support systems.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "AI Automation Services",
+    subtitle: "Smart Automation For Streamlined Business Operations.",
+    features: [
+      {
+        title: "Process Automation",
+        description:
+          "Automate repetitive workflows to improve efficiency and reduce operational costs.",
+      },
+      {
+        title: "AI Workflows",
+        description:
+          "Design intelligent pipelines that connect systems and optimize task execution.",
+      },
+      {
+        title: "Chatbot Automation",
+        description:
+          "Deploy AI-driven bots to handle customer queries and support tasks effectively.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Mobile App Development",
+    subtitle: "High-Performance Apps For Modern Mobile Experiences.",
+    features: [
+      {
+        title: "Cross-Platform Apps",
+        description:
+          "Build scalable apps for iOS and Android using modern frameworks and tools.",
+      },
+      {
+        title: "Offline Functionality",
+        description:
+          "Ensure smooth performance with offline access and real-time data syncing.",
+      },
+      {
+        title: "Push Notifications",
+        description:
+          "Engage users with timely alerts and personalized communication strategies.",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Data Science & Analytics",
+    subtitle: "Data-Driven Insights For Strategic Business Growth.",
+    features: [
+      {
+        title: "Data Visualization",
+        description:
+          "Transform complex data into clear dashboards and actionable insights.",
+      },
+      {
+        title: "Big Data Processing",
+        description:
+          "Handle large datasets efficiently for real-time analytics and decision-making.",
+      },
+      {
+        title: "Business Intelligence",
+        description:
+          "Enable smarter strategies with data-backed reporting and performance tracking.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Edge AI Computing Services",
+    subtitle: "Real-Time Processing At The Edge For Faster Decisions.",
+    features: [
+      {
+        title: "Edge Deployment",
+        description:
+          "Run AI models locally on devices to reduce latency and improve speed.",
+      },
+      {
+        title: "IoT Integration",
+        description:
+          "Connect smart devices with AI capabilities for intelligent automation systems.",
+      },
+      {
+        title: "Low Latency Systems",
+        description:
+          "Ensure fast data processing without relying heavily on cloud infrastructure.",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Cyber Security Services",
+    subtitle: "Advanced Protection For Your Digital Infrastructure.",
+    features: [
+      {
+        title: "Threat Detection",
+        description:
+          "Identify and prevent cyber threats using advanced monitoring systems.",
+      },
+      {
+        title: "Data Protection",
+        description:
+          "Secure sensitive data with encryption and access control mechanisms.",
+      },
+      {
+        title: "Security Audits",
+        description:
+          "Conduct regular assessments to ensure compliance and system integrity.",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "SAAS Development",
+    subtitle: "Cloud-Based Solutions For Scalable Business Growth.",
+    features: [
+      {
+        title: "Multi-Tenant Architecture",
+        description:
+          "Build scalable SaaS platforms supporting multiple users and organizations.",
+      },
+      {
+        title: "Subscription Systems",
+        description:
+          "Implement flexible billing models and subscription management features.",
+      },
+      {
+        title: "Cloud Integration",
+        description:
+          "Leverage cloud infrastructure for high availability and performance.",
+      },
+    ],
+  },
           ],
         });
       }, 1500);

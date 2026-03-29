@@ -27,9 +27,9 @@ const services = [
   },
   {
     icon: serviceIcon3,
-    title: "UI/UX Design Services",
-    description:
-      "Tailored software solution crafted to fit your unique business needs.",
+    title: "AI Automation Services",
+description:
+  "Smart automation solutions designed to streamline your business processes.",
     bgColor: "rgba(230, 158, 33, 1)",
     bgShadow: " 0px 13px 34.7px 0px rgba(230, 158, 33, 0.65)",
   },
@@ -51,9 +51,9 @@ const services = [
   },
   {
     icon: serviceIcon6,
-    title: "Cloud Computing Services",
-    description:
-      "Tailored software solution crafted to fit your unique business needs.",
+title: "Edge AI Computing Services",
+description:
+  "Real-time AI solutions built to process data efficiently at the network edge.",
     bgColor: "rgba(0, 191, 255, 1)",
     bgShadow: "0px 13px 34.7px 0px rgba(0, 191, 255, 0.65)",
   },

@@ -7,12 +7,13 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import Image from "next/image";
 import sliderIcon1 from "../../public/images/aiicon.svg";
-import sliderIcon2 from "../../public/images/Custom-icon.svg";
+import sliderIcon2 from "../../public/images/ai-technology.png";
 import sliderIcon3 from "../../public/images/webicon.svg";
-import sliderIcon4 from "../../public/images/account-settings-svgrepo-com.svg";
-import sliderIcon5 from "../../public/images/interface-ui-ux-web-svgrepo-com.svg";
+import sliderIcon4 from "../../public/images/statistic.png";
+import sliderIcon5 from "../../public/images/chat-bot.png";
 import sliderIcon6 from "../../public/images/mobileIcon.svg";
 import sliderIcon7 from "../../public/images/arrangement-chart-form-svgrepo-com.svg";
+import sliderIcon8 from "../../public/images/ai.png";
 
 export default function SliderHero() {
   return (
@@ -56,12 +57,13 @@ export default function SliderHero() {
         >
           {[
             { icon: sliderIcon1, text: "Artificial Intelligence" },
-            { icon: sliderIcon2, text: "Software Development" },
+            { icon: sliderIcon2, text: "AI Development" },
             { icon: sliderIcon3, text: "Web Development" },
-            { icon: sliderIcon4, text: "Cybersecurity" },
-            { icon: sliderIcon5, text: "UI/UX Design" },
+            { icon: sliderIcon4, text: "Data Analysis" },
+            { icon: sliderIcon5, text: "Agentic AI" },
             { icon: sliderIcon6, text: "Mobile Development" },
             { icon: sliderIcon7, text: "ERP Solutions" },
+            { icon: sliderIcon8, text: "AI Automation" },
           ].map((item, index) => (
             <SwiperSlide key={index}>
               <div className="slider-hero-slide flex items-center gap-2 px-2">

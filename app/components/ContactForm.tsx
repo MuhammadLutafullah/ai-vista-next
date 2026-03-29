@@ -107,7 +107,8 @@ export default function Contact() {
                 <div>
                   <p className="text-gray-400 text-[10px] tablet4:text-[11px] tablet3:text-xs tablet2:text-xs tablet:text-sm laptop:text-base mb-1">Email</p>
                   <a href="mailto:info@edgec.io" className="text-white text-xs tablet4:text-xs tablet3:text-sm tablet2:text-sm tablet:text-base laptop:text-lg hover:text-[#00a8a8] transition-colors duration-300 break-all">
-                    info@edgec.io
+                    info@tekstack.site
+                    
                   </a>
                 </div>
               </div>
@@ -122,7 +123,7 @@ export default function Contact() {
                 <div>
                   <p className="text-gray-400 text-[10px] tablet4:text-[11px] tablet3:text-xs tablet2:text-xs tablet:text-sm laptop:text-base mb-1">Phone</p>
                   <a href="tel:+923234563720" className="text-white text-xs tablet4:text-xs tablet3:text-sm tablet2:text-sm tablet:text-base laptop:text-lg hover:text-[#00a8a8] transition-colors duration-300">
-                    +92 323 4563720
+                    +92 3027899450
                   </a>
                 </div>
               </div>
@@ -189,7 +190,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-2.5 tablet4:px-3 tablet3:px-3.5 tablet2:px-4 py-2 tablet4:py-2.5 tablet3:py-3 rounded-lg bg-black/50 border border-white/10 text-white text-xs tablet4:text-sm tablet3:text-base placeholder-gray-500 focus:outline-none focus:border-[#00a8a8] focus:ring-1 focus:ring-[#00a8a8] transition-all duration-300"
-                    placeholder="your@email.com"
+                    placeholder="info@tekstack.site"
                   />
                 </div>
 
@@ -227,7 +228,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-2.5 tablet4:px-3 tablet3:px-3.5 tablet2:px-4 py-2 tablet4:py-2.5 tablet3:py-3 rounded-lg bg-black/50 border border-white/10 text-white text-xs tablet4:text-sm tablet3:text-base placeholder-gray-500 focus:outline-none focus:border-[#00a8a8] focus:ring-1 focus:ring-[#00a8a8] transition-all duration-300"
-                      placeholder="+92 323 4563720"
+                      placeholder="+92 3027899450"
                     />
                   </div>
                   <div className="flex-1">

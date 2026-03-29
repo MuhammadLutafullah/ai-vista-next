@@ -62,11 +62,7 @@ export default function AboutUs() {
                 scalable, high-performing solutions.
               </p>
               <p className="about-desc-2 pt-2">
-                Our team of skilled developers, designers, and strategists work
-                collaboratively to deliver seamless, user-friendly experiences.
-                Whether it’s web development, mobile apps, or custom software
-                solutions, we ensure that every project is tailored to meet the
-                unique needs of our clients.
+                Our team of developers and AI specialists builds intelligent, user-friendly solutions, integrating AI to deliver smarter, faster, and more personalized experiences across web, mobile, and custom software tailored to your needs. We turn data into actionable insights to drive real results.
               </p>
              
             </div>

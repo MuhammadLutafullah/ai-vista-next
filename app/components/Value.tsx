@@ -6,43 +6,51 @@ import React, { useState } from "react";
 const faqData = [
   {
     id: 1,
-    question: "What services does your company offer?",
-    answer: "We offer end-to-end digital solutions including web development, mobile app development, UI/UX design, cloud computing, AI/ML integration, e-commerce solutions, and IT consulting services tailored to your business needs."
+    question: "What AI & Machine Learning services do you offer?",
+    answer:
+      "We provide AI-driven solutions including predictive analytics, computer vision, natural language processing, and custom machine learning models to help businesses make smarter, data-driven decisions."
   },
   {
     id: 2,
-    question: "How long does it take to develop a website or app?",
-    answer: "Timelines vary based on project complexity. A simple website takes 2-4 weeks, while complex web applications or mobile apps typically take 3-6 months. We provide detailed timelines during the discovery phase."
+    question: "What is included in your web development services?",
+    answer:
+      "Our web development services include responsive design, custom web applications, API integrations, and scalable platforms built to deliver high performance and seamless user experiences."
   },
   {
     id: 3,
-    question: "What is your development process?",
-    answer: "We follow an agile methodology: Discovery & Planning → Design & Prototyping → Development → Testing & QA → Deployment → Maintenance & Support. You'll have regular updates throughout."
+    question: "How can AI automation benefit my business?",
+    answer:
+      "AI automation helps streamline repetitive tasks, reduce operational costs, improve efficiency, and enhance productivity by implementing intelligent workflows and automated systems."
   },
   {
     id: 4,
-    question: "Do you provide post-launch support?",
-    answer: "Yes, we offer comprehensive post-launch support including bug fixes, performance monitoring, security updates, feature enhancements, and 24/7 technical support with our maintenance packages."
+    question: "Do you develop mobile apps for both iOS and Android?",
+    answer:
+      "Yes, we build high-performance mobile applications for both iOS and Android using modern technologies like React Native and Flutter, ensuring a smooth and scalable user experience."
   },
   {
     id: 5,
-    question: "What technologies do you specialize in?",
-    answer: "We specialize in React, Next.js, Node.js, Python, Django, Laravel, React Native, Flutter, AWS, Azure, and modern databases like PostgreSQL and MongoDB."
+    question: "What do your data science and analytics services include?",
+    answer:
+      "We offer data analysis, visualization, business intelligence, and big data solutions to help organizations gain actionable insights and improve decision-making processes."
   },
   {
     id: 6,
-    question: "How much does it cost to build a website?",
-    answer: "Costs vary based on features and complexity. Basic websites start at $2,000, while custom web applications range from $10,000 to $50,000+. Contact us for a free consultation and quote."
+    question: "What are Edge AI computing services?",
+    answer:
+      "Edge AI enables real-time data processing directly on devices, reducing latency and improving speed. It is ideal for IoT systems, smart devices, and applications requiring instant decision-making."
   },
   {
     id: 7,
-    question: "Can you help with SEO and digital marketing?",
-    answer: "Absolutely! We build SEO-optimized websites and offer digital marketing services including content strategy, social media management, PPC campaigns, and analytics tracking to boost your online presence."
+    question: "How do you ensure cybersecurity in your solutions?",
+    answer:
+      "We implement advanced security measures including threat detection, data encryption, and regular security audits to protect your systems and ensure compliance with industry standards."
   },
   {
     id: 8,
-    question: "Do you work with startups and small businesses?",
-    answer: "Yes, we specialize in helping startups and small businesses. We offer flexible engagement models, scalable solutions, and affordable packages designed to fit startup budgets and growth needs."
+    question: "What SaaS development services do you provide?",
+    answer:
+      "We build scalable SaaS platforms with multi-tenant architecture, subscription management systems, and cloud integration to support business growth and ensure high availability."
   }
 ];
 
